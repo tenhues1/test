@@ -1,0 +1,27 @@
+.preview-upload .column {
+  font-weight: 700;
+}
+
+.preview-upload .column-heading.column__6 {
+  width: 17%;
+}
+.preview-upload .column__1,
+.preview-upload .column__2,
+.preview-upload .column__4 {
+  width: 14%;
+}
+
+.preview-upload .column__3 {
+  width: 25%;
+}
+.preview-upload .column__5 {
+  width: 16%;
+}
+.preview-upload .column.column__6 {
+  width: 17%;
+}
+.btn-view-missing {
+  margin-left: 20px;
+  text-transform: none;
+  padding: 9px 12px;
+}

@@ -1,0 +1,19 @@
+.staff-icon {
+  margin-right: 10px;
+  text-align: start;
+}
+
+.staff-group-btn {
+  padding: 10px;
+  width: 100px;
+  background-color: #f4f8ff;
+  color: #001d58;
+  font-size: 12px;
+  line-height: 15px;
+  border: 1px solid #001d58;
+  margin: 0;
+}
+
+.page__control {
+  padding: 1% 2%;
+}

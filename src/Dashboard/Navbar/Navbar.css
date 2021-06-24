@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 1% 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  font-size: 10px;
+  line-height: 12px;
+}
+.nav__icon {
+  background-repeat: no-repeat;
+  min-width: 22px;
+  min-height: 18px;
+}
+.nav__users-icon {
+  background-image: url(../../img/icon/users-icon_color_grey.png);
+}
+.nav__apps-icon {
+  background-image: url(../../img/icon/apps-icon_color_grey.png);
+}
+.nav__roles-icon {
+  background-image: url(../../img/icon/roles-icon_color_grey.png);
+}
+.nav__audits-icon {
+  background-image: url(../../img/icon/audit-icon_color_grey.png);
+}
+
+a.nav__link {
+  width: 15%;
+  color: #828282;
+  text-decoration: none;
+}
+a.active-link {
+  border-bottom: 2px solid #003296;
+  color: #003296;
+}
+
+a.active-link .nav__users-icon {
+  background-image: url(../../img/icon/users-icon_color_blue.png);
+}
+a.active-link .nav__roles-icon {
+  background-image: url(../../img/icon/roles-icon_color_blue.png);
+}
+.nav__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

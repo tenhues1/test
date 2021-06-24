@@ -1,0 +1,65 @@
+.view-staff-group-modal .modal__content {
+  padding: 5% 5% 5%;
+}
+.view-staff-group-modal .section-subtitle {
+  text-align: left;
+  align-self: flex-start;
+  background-color: #f4f8ff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.view-staff-group-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.view-staff-group-modal__close-btn {
+  background-color: transparent;
+  color: #003296;
+  border: 0;
+  font-size: 16px;
+}
+
+.staff-group-details {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.details-heading {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #003296;
+}
+
+.details-paragraph {
+  font-weight: 600;
+  color: #001d58;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.staff-group-members {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 10px;
+  line-height: 12px;
+}
+.staff-group-member {
+  margin-right: 28px;
+  margin-bottom: 15px;
+  padding: 4px;
+}
+.btn-edit {
+  background-color: transparent;
+  border: 0;
+  color: #003296;
+}
+.view-staff-group__edit-btn {
+  padding: 15px;
+}

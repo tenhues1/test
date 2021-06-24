@@ -1,0 +1,38 @@
+.add-user-modal.modal__content {
+  padding: 5% 5% 2%;
+  width: 60%;
+  min-width: 700px;
+  height: fit-content;
+}
+.add-user-modal .section-subtitle {
+  text-align: left;
+  margin-bottom: 5%;
+  align-self: flex-start;
+  background-color: #f4f8ff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.add-user-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.field-input {
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+.add-user-modal__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 70%;
+  margin-top: 8%;
+}
+
+.btn_pos_left,
+.btn_pos_right {
+  padding: 16px;
+}

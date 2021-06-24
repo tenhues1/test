@@ -1,0 +1,27 @@
+.success-modal .modal-content {
+  text-align: center;
+  justify-content: space-around;
+}
+.modal__paragraph {
+  width: 55%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+
+.modal__content_order_second {
+  font-weight: 600;
+}
+
+.bg_color_green {
+  color: #329632;
+  background-color: #e4f8e8;
+  border-radius: 5px;
+}
+
+.bg_color_blue {
+  color: #003296;
+  background-color: #f4f8ff;
+  border-radius: 5px;
+}
